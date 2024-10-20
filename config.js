@@ -43,7 +43,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "", // Session id එක දාන්න " " ඕව මැදට creds.json දානව නම් ඕව වෙනස් කරන්න එපා...✓💚
+SESSION_ID: process.env.SESSION_ID || "Manu-MD&6JcWyJiT#f4RKq3LWxQm9-UOi02IQtp9gJpw9nAUW86AYS2EJl2c", // Session id එක දාන්න " " ඕව මැදට creds.json දානව නම් ඕව වෙනස් කරන්න එපා...✓💚
 ALIVE_IMG : process.env.ALIVE_IMG || "https://files.catbox.moe/78vmmt.jpg",
 ALIVE_MSG : process.env.ALIVE_MSG || "https://files.catbox.moe/5cz9rq.m4a",
 MENU_IMG : process.env.MENU_IMG || "https://files.catbox.moe/78vmmt.jpg",
@@ -67,7 +67,7 @@ AUTO_TYPING : process.env.AUTO_TYPING || "true",
 AUTO_RECORDING : process.env.AUTO_RECORDING || "true", //ඔටෝ රෙකෝඩින් පෙන්නන්න ඕනි නම් "true" තියන්න, එපා නම් "false" දාන්න...✓💚
 OWNER_NUMBER : process.env.OWNER_NUMBER || "923139783801", // ඔයාගෙ නම්බරේ ඔතනට දාගන්න මුලට 94 තියෙන්න ඕනි 0 දාන්න එපා !
 DELCHAT : process.env.DELCHAT || "pm",
-FOOT : process.env.FOOT || "🧚‍♀️𝗠𝗔𝗡𝗨-𝗠𝗗-𝗩❼💗",
+FOOT : process.env.FOOT || "PRINCE SUDAIS 🤫",
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1500': process.env.MAX_SIZE,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO,
 };
